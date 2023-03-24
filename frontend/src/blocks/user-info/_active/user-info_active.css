@@ -1,8 +1,0 @@
-@media screen and (max-width:768px) {
-    .user-info_active {
-        display: block;
-        top: -100px;
-        text-align: center;
-    }
-}
-

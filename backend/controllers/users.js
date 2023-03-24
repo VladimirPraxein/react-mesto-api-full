@@ -34,7 +34,6 @@ const getUser = (req, res, next) => {
 const getMe = (req, res, next) => {
   User.findById(req.user._id)
     .then((user) => {
-      console.log(req.user)
       if (user) {
         return res.send(user);
       }
